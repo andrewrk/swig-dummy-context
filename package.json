@@ -1,0 +1,26 @@
+{
+  "name": "swig-dummy-context",
+  "version": "0.0.0",
+  "description": "given a swig template, create a dummy context which is useful for template composing tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/superjoe30/swig-dummy-context.git"
+  },
+  "keywords": [
+    "email",
+    "preview",
+    "tool"
+  ],
+  "author": "Andrew Kelley <superjoe30@gmail.com>",
+  "license": "BSD",
+  "devDependencies": {
+    "batch": "~0.2.1",
+    "mocha": "~1.8.1",
+    "swig": "~0.13.5",
+    "boost": "0.0.2"
+  }
+}
