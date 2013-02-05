@@ -35,9 +35,9 @@ swig.init({
 var template = swig.compileFile("template.html");
 assert.deepEqual(createDummyContext(template), {
   "description": "description",
-  "articles": {
+  "articles": [{
     "name": "name",
-  },
+  }],
   "defaultText": "defaultText"
 });
 ```
