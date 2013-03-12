@@ -18,9 +18,7 @@
   "author": "Andrew Kelley <superjoe30@gmail.com>",
   "license": "BSD",
   "devDependencies": {
-    "batch": "~0.2.1",
     "mocha": "~1.8.1",
-    "swig": "~0.13.5",
-    "boost": "0.0.2"
+    "swig": "~0.13.5"
   }
 }
