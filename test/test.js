@@ -1,13 +1,11 @@
-var createDummyContext = require('../')
-  , swig = require('swig')
-  , assert = require('assert')
-  , path = require('path')
-  , fs = require('fs')
+var createDummyContext = require('../');
+var swig = require('swig');
+var assert = require('assert');
+var path = require('path');
+var fs = require('fs');
 
-swig.init({
-  allowErrors: true,
-  root: path.join(__dirname, "templates"),
-});
+var templatesDir = path.join(__dirname, 'templates');
+
 var testMap = {
   "simple_vars": {
     hello: "hello",
@@ -89,7 +87,8 @@ describe("createDummyContext", function() {
   
   function createIt(templateName, expected) {
     return function() {
-      var template = swig.compileFile(templateName + ".html");
+      var templatePath = path.join(templatesDir, templateName + ".html");
+      var template = swig.compileFile(templatePath);
       assert.deepEqual(createDummyContext(template), expected);
     };
   }

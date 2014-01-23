@@ -1,5 +1,7 @@
 # swig-dummy-context
 
+*Note: this module does not work with swig 1.x and beyond.*
+
 Given a [swig](https://github.com/paularmstrong/swig) template, produce a
 dummy context that you can immediately use to preview your template.
 
