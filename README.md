@@ -5,7 +5,7 @@
 Given a [swig](https://github.com/paularmstrong/swig) template, produce a
 dummy context that you can immediately use to preview your template.
 
-See also [swig-email-templates](https://github.com/superjoe30/swig-email-templates)
+See also [swig-email-templates](https://github.com/andrewrk/swig-email-templates)
 
 ## Example Usage
 
