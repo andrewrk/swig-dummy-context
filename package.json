@@ -10,11 +10,6 @@
     "type": "git",
     "url": "git://github.com/andrewrk/swig-dummy-context.git"
   },
-  "keywords": [
-    "email",
-    "preview",
-    "tool"
-  ],
   "author": "Andrew Kelley <superjoe30@gmail.com>",
   "license": "MIT",
   "devDependencies": {
