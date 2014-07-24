@@ -16,7 +16,7 @@
     "tool"
   ],
   "author": "Andrew Kelley <superjoe30@gmail.com>",
-  "license": "BSD",
+  "license": "MIT",
   "devDependencies": {
     "mocha": "~1.20.1",
     "swig": "~1.4.1"
